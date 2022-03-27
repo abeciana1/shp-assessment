@@ -6,7 +6,10 @@ const Home = () => {
     return (
         <PageLayout>
             <PageHero />
-            <GridLayout col={3}>
+            <GridLayout
+                col={3}
+                gap={20}
+            >
                 <img
                     src="./images/HP_Antidotes.webp"
                     alt="Antidotes for everyday life"

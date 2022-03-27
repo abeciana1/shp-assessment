@@ -5,16 +5,19 @@ const GridWrapper = styled.section`
     grid-template-columns: repeat(${props => props.col}, minmax(0, 1fr));
     align-items: stretch;
     grid-row: auto;
-    gap: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    gap: ${props => props.gap}px;
+    margin-top: ${props => props.gap}px;
+    margin-bottom: ${props => props.gap}px;
 `
 
 const GridLayout = (props) => {
     console.log(props)
 
     return (
-        <GridWrapper col={props.col}>
+        <GridWrapper
+            col={props.col}
+            gap={props.gap}
+        >
             {props.children}
         </GridWrapper>
     )
