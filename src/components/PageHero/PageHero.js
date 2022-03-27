@@ -1,3 +1,5 @@
+import './PageHero.css'
+
 const PageHero = () => {
 
     return (
