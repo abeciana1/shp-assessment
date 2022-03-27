@@ -7,12 +7,11 @@ const Header = styled.h3`
     line-height: 0.1em;
     margin: 10px 0 20px;
     font-size: 30px;
-    padding-top: 8px;
-    padding-bottom: 8px;
 `
 const Span = styled.span`
     background:#fff; 
-    padding:0 10px; 
+    padding-left: 10px;
+    padding-right: 10px;
 `
 
 const SubSectionHeader = ({text}) => {
