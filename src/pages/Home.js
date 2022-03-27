@@ -1,6 +1,7 @@
-import PageHero from '../components/PageHero/PageHero'
-import PageLayout from '../components/Layouts/PageLayout/PageLayout'
-import GridLayout from '../components/Layouts/GridLayout/GridLayout'
+import PageHero from '../components/PageHero'
+import PageLayout from '../components/Layouts/PageLayout'
+import GridLayout from '../components/Layouts/GridLayout'
+import SubSectionHeader from '../components/SubSectionHeader'
 
 const Home = () => {
     return (
