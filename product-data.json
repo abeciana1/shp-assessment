@@ -1,0 +1,52 @@
+[
+    {
+        "brand": "Swanson Premium",
+        "productName": "Vitamin D3 - Highest Potency",
+        "measurementDetails": "5,000 IU 250 Sgels",
+        "price": 10.99,
+        "perUnit": 1,
+        "starRating": 5,
+        "numofRatings": 440,
+        "productImage": "./images/SW1371.webp"
+    },
+    {
+        "brand":"Swanson Premium",
+        "productName": "Zinc Picolinate - Body Preferred Form",
+        "measurementDetails": "22 mg 60 Caps",
+        "price": 2.59,
+        "perUnit": 1,
+        "starRating": 5,
+        "numofRatings": 95,
+        "productImage": "./images/SW1113.webp"
+    },
+    {
+        "brand": "Swanson Probiotics",
+        "productName": "Dr. Stephen Langer's Ultimate 16 Strain Probiotic with FOS",
+        "measurementDetails": "3.2 Billion CFU 60 Veg Drcaps",
+        "price": 14.79,
+        "perUnit": 2,
+        "starRating": 5,
+        "numofRatings": 823,
+        "productImage": "./images/SWA051.webp"
+    },
+    {
+        "brand": "Swanson Health Products, Inc.",
+        "productName": "DELIVERY INSURANCE",
+        "measurementDetails": "",
+        "price": 1.00,
+        "perUnit": 1,
+        "starRating": 5,
+        "numofRatings": 78,
+        "productImage": "./images/DELIVERYINS01.webp"
+    },
+    {
+        "brand":"Swanson Premium",
+        "productName": "Tumeric & Black Pepper",
+        "measurementDetails": "60 Veg Caps",
+        "price": 13.99,
+        "perUnit": 2,
+        "starRating": 5,
+        "numofRatings": 238,
+        "productImage": "./images/SW1613.webp"
+    }
+]
