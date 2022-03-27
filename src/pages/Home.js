@@ -28,7 +28,9 @@ const Home = () => {
                 />
             </GridLayout>
             <SubSectionHeader
-                text={"You May Like"}
+                text="You May Like"
+                textColor="green"
+                lineColor="lightGreen"
             />
         </PageLayout>
     )
