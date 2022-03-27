@@ -11,7 +11,6 @@ const GridWrapper = styled.section`
 `
 
 const GridLayout = (props) => {
-    console.log(props)
 
     return (
         <GridWrapper
