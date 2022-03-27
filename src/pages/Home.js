@@ -27,6 +27,9 @@ const Home = () => {
                     className="promo-img"
                 />
             </GridLayout>
+            <SubSectionHeader
+                text={"You May Like"}
+            />
         </PageLayout>
     )
 }
