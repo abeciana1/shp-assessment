@@ -1,8 +1,10 @@
-
+import PageHero from '../components/PageHero/PageHero'
 
 const Home = () => {
     return (
-        <div></div>
+        <>
+            <PageHero/>
+        </>
     )
 }
 
