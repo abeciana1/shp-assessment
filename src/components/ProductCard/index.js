@@ -45,6 +45,7 @@ const ProductCard = ({ prod }) => {
                 >
                     {measurementDetails}
                 </div>
+                <div className="price-div"></div>
                 {bogo ? 
                     <div
                         className="price"
@@ -59,15 +60,17 @@ const ProductCard = ({ prod }) => {
                         ${price.toFixed(2)}
                     </div>
                 }
-                <Button
-                    path=""
-                    bgColor={COLORS["orange"]}
-                    text="add to cart"
-                    textColor="white"
-                    xAxis={30}
-                    yAxis={10}
-                    fontWeight={900}
-                />
+                <div className="product-btn">
+                    <Button
+                        path=""
+                        bgColor="orange"
+                        text="add to cart"
+                        textColor="white"
+                        xAxis={30}
+                        yAxis={10}
+                        fontWeight={900}
+                    />
+                </div>
         </CardWrapper>
     )
 }

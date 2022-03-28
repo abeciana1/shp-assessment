@@ -1,8 +1,8 @@
 import styled from 'styled-components'
-// import COLORS from '../../data/brand-color-lib.json'
+import COLORS from '../../data/brand-color-lib.json'
 
 const ButtonWrapper = styled.button`
-    background-color: ${props => props.bgColor};
+    background-color: ${props => COLORS[props.bgColor]};
     color: ${props => props.textColor};
     outline: none;
     border: none;
@@ -27,6 +27,7 @@ const Button = ({
     return (
         <a
             href={path}
+            className=""
         >
             <ButtonWrapper
                 bgColor={bgColor}
