@@ -18,7 +18,8 @@ const ProductCard = ({ prod }) => {
         price,
         bogo,
         numOfRatings,
-        productImage
+        productImage,
+        slug
     } = prod
 
     return (
@@ -63,7 +64,7 @@ const ProductCard = ({ prod }) => {
                 <div className="btn-spacer"></div>
                 <div className="product-btn">
                     <Button
-                        path=""
+                        path={slug}
                         bgColor="orange"
                         text="add to cart"
                         textColor="white"
