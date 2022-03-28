@@ -37,7 +37,7 @@ const Home = () => {
             />
             <GridLayout
                 col={5}
-                gap={10}
+                gap={40}
             >
                 {Products.map(prod => {
                     return <ProductCard prod={prod} />

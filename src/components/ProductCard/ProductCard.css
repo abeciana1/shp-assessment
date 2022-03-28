@@ -2,7 +2,7 @@
     color: #00833D;
     padding-top: 22px;
     padding-bottom: 22px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .num-of-ratings {
@@ -30,7 +30,12 @@
 .price {
     font-weight: 500;
     font-size: 22px;
-    padding-top: 40px;
+    padding-bottom: 20px;
+    display: table-row;
+}
+
+.price-div {
+    margin-top: 40px;
 }
 
 .bogo-label {
@@ -43,6 +48,14 @@
     border-bottom-right-radius: 20px;
     transform: rotate(90deg);
     position: absolute;
-    margin-left: 200px;
+    margin-left: 11rem;
     margin-top: 50px;
+}
+
+.product-btn {
+    display: table-row;
+}
+
+.btn-spacer {
+    padding-top: 10px;
 }
