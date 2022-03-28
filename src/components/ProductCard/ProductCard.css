@@ -55,3 +55,7 @@
 .product-btn {
     display: table-row;
 }
+
+.btn-spacer {
+    padding-top: 10px;
+}

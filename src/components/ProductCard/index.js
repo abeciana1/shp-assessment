@@ -60,6 +60,7 @@ const ProductCard = ({ prod }) => {
                         ${price.toFixed(2)}
                     </div>
                 }
+                <div className="btn-spacer"></div>
                 <div className="product-btn">
                     <Button
                         path=""
@@ -71,7 +72,7 @@ const ProductCard = ({ prod }) => {
                         fontWeight={900}
                     />
                 </div>
-        </CardWrapper>
+            </CardWrapper>
     )
 }
 
