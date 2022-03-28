@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import "./ProductCard.css"
+import COLORS from '../../data/brand-color-lib.json'
 
 const CardWrapper = styled.div`
     padding-top: 8px;
@@ -55,6 +56,20 @@ const ProductCard = ({ prod }) => {
                 >
                     {measurementDetails}
                 </div>
+                {bogo ? 
+                    <div
+                        className="price"
+                        style={{color: COLORS["eggplant"]}}
+                    >
+                        2 for ${price.toFixed(2)}
+                    </div>
+                :
+                    <div
+                        className="price"
+                    >
+                        ${price.toFixed(2)}
+                    </div>
+                }
         </CardWrapper>
     )
 }

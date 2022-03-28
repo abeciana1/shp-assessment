@@ -26,3 +26,9 @@
     font-size: 14px;
     display: table-row;
 }
+
+.price {
+    font-weight: 500;
+    font-size: 22px;
+    padding-top: 40px;
+}
