@@ -22,6 +22,7 @@ const ProductCard = ({ prod }) => {
 
     return (
         <CardWrapper>
+                {bogo ? <div className="bogo-label">BOGO</div> : null}
                 <img
                     src={productImage}
                     alt={brand + " - " + productName}

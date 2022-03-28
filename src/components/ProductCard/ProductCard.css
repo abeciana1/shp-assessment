@@ -32,3 +32,17 @@
     font-size: 22px;
     padding-top: 40px;
 }
+
+.bogo-label {
+    font-weight: 600;
+    background-color: #DDEBB4;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 100px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transform: rotate(90deg);
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 50px;
+}
