@@ -40,7 +40,7 @@ const Home = () => {
                 gap={40}
             >
                 {Products.map(prod => {
-                    return <ProductCard prod={prod} />
+                    return <ProductCard key={prod.id} prod={prod} />
                 })}
             </GridLayout>
         </PageLayout>
