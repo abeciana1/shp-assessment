@@ -12,6 +12,7 @@ const ButtonWrapper = styled.button`
     padding-right: ${props => props.xAxis}px;
     font-weight: ${props => props.fontWeight};
     font-size: 16px;
+    cursor: pointer;
 `
 
 const Button = ({
