@@ -6,7 +6,7 @@
         "price": 10.99,
         "bogo": false,
         "starRating": 5,
-        "numofRatings": 440,
+        "numOfRatings": 440,
         "productImage": "./images/SW1371.webp"
     },
     {
@@ -16,7 +16,7 @@
         "price": 2.59,
         "bogo": false,
         "starRating": 5,
-        "numofRatings": 95,
+        "numOfRatings": 95,
         "productImage": "./images/SW1113.webp"
     },
     {
@@ -26,7 +26,7 @@
         "price": 14.79,
         "bogo": true,
         "starRating": 5,
-        "numofRatings": 823,
+        "numOfRatings": 823,
         "productImage": "./images/SWA051.webp"
     },
     {
@@ -36,7 +36,7 @@
         "price": 1.00,
         "bogo": false,
         "starRating": 5,
-        "numofRatings": 78,
+        "numOfRatings": 78,
         "productImage": "./images/DELIVERYINS01.webp"
     },
     {
@@ -46,7 +46,7 @@
         "price": 13.99,
         "bogo": true,
         "starRating": 5,
-        "numofRatings": 238,
+        "numOfRatings": 238,
         "productImage": "./images/SW1613.webp"
     }
 ]

@@ -35,9 +35,14 @@ const Home = () => {
                 textColor="green"
                 lineColor="lightGreen"
             />
-            {Products.map(prod => {
-                <ProductCard prod={prod} />
-            })}
+            <GridLayout
+                col={5}
+                gap={10}
+            >
+                {Products.map(prod => {
+                    return <ProductCard prod={prod} />
+                })}
+            </GridLayout>
         </PageLayout>
     )
 }
