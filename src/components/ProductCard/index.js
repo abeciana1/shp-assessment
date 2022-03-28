@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import "./ProductCard.css"
 import COLORS from '../../data/brand-color-lib.json'
+import Button from '../Button'
 
 const CardWrapper = styled.div`
     padding-top: 8px;
@@ -44,6 +45,7 @@ const ProductCard = ({ prod }) => {
                 >
                     {measurementDetails}
                 </div>
+                <div className="price-div"></div>
                 {bogo ? 
                     <div
                         className="price"
@@ -58,7 +60,19 @@ const ProductCard = ({ prod }) => {
                         ${price.toFixed(2)}
                     </div>
                 }
-        </CardWrapper>
+                <div className="btn-spacer"></div>
+                <div className="product-btn">
+                    <Button
+                        path=""
+                        bgColor="orange"
+                        text="add to cart"
+                        textColor="white"
+                        xAxis={30}
+                        yAxis={10}
+                        fontWeight={900}
+                    />
+                </div>
+            </CardWrapper>
     )
 }
 
