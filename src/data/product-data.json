@@ -7,7 +7,8 @@
         "bogo": false,
         "starRating": 5,
         "numOfRatings": 440,
-        "productImage": "./images/SW1371.webp"
+        "productImage": "./images/SW1371.webp",
+        "slug": "vt-d3-highest-potency"
     },
     {
         "brand":"Swanson Premium",
@@ -17,7 +18,8 @@
         "bogo": false,
         "starRating": 5,
         "numOfRatings": 95,
-        "productImage": "./images/SW1113.webp"
+        "productImage": "./images/SW1113.webp",
+        "slug": "zinc-picolinate"
     },
     {
         "brand": "Swanson Probiotics",
@@ -27,7 +29,8 @@
         "bogo": true,
         "starRating": 5,
         "numOfRatings": 823,
-        "productImage": "./images/SWA051.webp"
+        "productImage": "./images/SWA051.webp",
+        "slug": "dr-stephen-langers-strain-probiotic"
     },
     {
         "brand": "Swanson Health Products, Inc.",
@@ -37,7 +40,8 @@
         "bogo": false,
         "starRating": 5,
         "numOfRatings": 78,
-        "productImage": "./images/DELIVERYINS01.webp"
+        "productImage": "./images/DELIVERYINS01.webp",
+        "slug": "delivery-insurance"
     },
     {
         "brand":"Swanson Premium",
@@ -47,6 +51,7 @@
         "bogo": true,
         "starRating": 5,
         "numOfRatings": 238,
-        "productImage": "./images/SW1613.webp"
+        "productImage": "./images/SW1613.webp",
+        "slug": "tumeric-black-pepper"
     }
 ]
