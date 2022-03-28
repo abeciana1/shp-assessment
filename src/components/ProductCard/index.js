@@ -9,17 +9,6 @@ const CardWrapper = styled.div`
 `
 
 const ProductCard = ({ prod }) => {
-// {
-//     "brand": "Swanson Premium",
-//     "productName": "Zinc Picolinate - Body Preferred Form",
-//     "measurementDetails": "22 mg 60 Caps",
-//     "price": 2.59,
-//     "bogo": false,
-//     "starRating": 5,
-//     "numofRatings": 95,
-//     "productImage": "./images/SW1113.webp"
-// }
-    console.log(prod)
 
     const {
         brand,
@@ -27,14 +16,12 @@ const ProductCard = ({ prod }) => {
         measurementDetails,
         price,
         bogo,
-        starRating,
         numOfRatings,
         productImage
     } = prod
 
     return (
         <CardWrapper>
-            {/* <div className="product-card"> */}
                 <img
                     src={productImage}
                     alt={brand + " - " + productName}
