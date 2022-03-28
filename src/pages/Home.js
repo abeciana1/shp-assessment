@@ -1,7 +1,10 @@
+import Products from '../data/product-data.json'
+
 import PageHero from '../components/PageHero'
 import PageLayout from '../components/Layouts/PageLayout'
 import GridLayout from '../components/Layouts/GridLayout'
 import SubSectionHeader from '../components/SubSectionHeader'
+import ProductCard from '../components/ProductCard'
 
 const Home = () => {
     return (
@@ -32,6 +35,14 @@ const Home = () => {
                 textColor="green"
                 lineColor="lightGreen"
             />
+            <GridLayout
+                col={5}
+                gap={10}
+            >
+                {Products.map(prod => {
+                    return <ProductCard prod={prod} />
+                })}
+            </GridLayout>
         </PageLayout>
     )
 }
